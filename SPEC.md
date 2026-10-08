@@ -173,6 +173,9 @@ For missing written content, use explicit [ADD: ...] placeholders during draftin
 - Open any link to the live site in a new tab or window.
 
 ## Images
+- Tidehall Fishmarket includes the added waterfront promenade rendering
+  (Screenshot 2026-10-08 011914.png) as a full-width gallery image after the plans.
+  Preserve its original proportions and the existing typography and palette.
 - Luna House detail image order: pink exploded axonometric diagram first,
   courtyard-house model overview second, six-view model montage third.
 - Use originals from images/pivot-house, images/tidehall-fishmarket,
