@@ -1,5 +1,21 @@
 # Specification
 
+## Project Archives categories
+The main navigation reads Home, Project Archives, About and Log out. Project Archives keeps the existing
+projects.html URL so existing links continue to work. This categorization
+supersedes the former single project archive and generic Project labels.
+- Architecture Projects: Pivot House, Tidehall Fishmarket, Gradient Grid.
+- Visual Studies: Luna House (graphic and physical model study), City of the Sun
+  (drawing-based study). These are not full architecture projects.
+Project Archives has clearly separated sections: a structured architecture card grid and a
+looser editorial visual-study gallery with varied widths and top-aligned entries.
+All imagery stays uncropped. Future supplied drawings, graphics, physical models,
+fabrication work and smaller design studies belong in Visual Studies; do not
+create fictional entries. Home retains Tidehall as the feature and previews
+Pivot House, Gradient Grid and Luna House to represent both categories.
+About content and architecture detail content/layout remain unchanged. Only
+their shared navigation label and back-link wording change to Project Archives.
+
 ## First implementation
 Scheme B is selected. All pages live at the top of the folder.
 The portfolio now uses the five supplied project folders. Existing detail URLs
@@ -56,20 +72,20 @@ Content:
 - A small selected-work preview rather than every archive entry.
 - Feature Tidehall Fishmarket with its exterior rendering. Preview Pivot House
   and Gradient Grid using representative images from their own folders.
-- A clear link to the complete Projects archive and a link to About.
+- A clear link to the complete Project Archives archive and a link to About.
 - Links to Projects and the relevant project pages.
-- Home, Projects, About, and Log out navigation.
+- Home, Project Archives, About, and Log out navigation.
 
 index.html sits at the top of the folder.
 
 ### projects.html
-Purpose: the complete project archive, without the Home introduction or feature.
+Purpose: the complete Project Archives archive with Architecture Projects and Visual Studies.
 Content:
-- A single archive of equally weighted image-led cards with project names,
-  neutral Project labels and detail links. Descriptions wait for supplied text.
+- Architecture Projects uses structured image-led cards with names and links.
+- Visual Studies uses a looser gallery with study names, supplied study types
+  and links. Do not present these entries as full architecture projects.
 - Include Pivot House, Tidehall Fishmarket, Gradient Grid, City of the Sun and
-  Luna House. Use project names and real representative images. Use the neutral
-  label Project until specific categories are confirmed; do not infer categories.
+  Luna House. Use supplied names, confirmed categories and real imagery.
 - Links to individual project pages.
 - Shared navigation and Log out.
 
@@ -81,7 +97,7 @@ Content:
 - Main render or photograph.
 - Plans, sections, elevations, diagrams, sketches, and model photographs where available.
 - Supplied captions and project explanation.
-- Back to Projects link.
+- Back to Project Archives link.
 - Shared navigation and Log out.
 
 Do not invent project names, locations, dates, dimensions, briefs, collaborators, or outcomes.
@@ -94,7 +110,7 @@ Content:
 - Supplied title and one-line description.
 - Graphics or model photographs.
 - Supplied captions and process notes.
-- Back to Projects link.
+- Back to Project Archives link.
 - Shared navigation and Log out.
 
 ### about.html

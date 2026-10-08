@@ -49,3 +49,10 @@ main.profile-page{display:grid;grid-template-columns:200px minmax(0,1fr);gap:48p
 .project-gallery figure{margin:0;min-width:0}
 .project-gallery .wide{grid-column:1/-1}
 @media(max-width:700px){.project-gallery{grid-template-columns:1fr;gap:32px}.project-gallery .wide{grid-column:auto}}
+
+/* Work: structured architecture index and editorial visual studies. */
+.work-page .studies-section{margin-top:96px;padding-top:32px;border-top:1px solid #cfa999}
+.studies-gallery{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,5fr);gap:64px;align-items:start}
+.studies-gallery article{min-width:0}
+.studies-gallery img{display:block;width:100%;height:auto;object-fit:contain}
+@media(max-width:700px){.work-page .studies-section{margin-top:48px}.studies-gallery{grid-template-columns:1fr;gap:48px}}

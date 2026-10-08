@@ -7,12 +7,13 @@ like a carefully typeset project register. Use predominantly Crème backgrounds,
 quiet dark text, subtle dividers, grey image placeholders, Cormorant Garamond
 headings and Raleway supporting text.
 Home uses one prominent featured image, a brief personal introduction and a small
-curated preview. Projects uses equally weighted cards as the complete archive,
-grouped by Architecture and Visual work. Both keep the existing type and palette.
+curated preview spanning both categories. Project Archives separates a structured Architecture
+Projects grid from a looser Visual Studies gallery with unequal column widths
+and entries aligned along the top. Both keep the existing type and palette.
 Other pages retain their proportions and spacing. Use relative .html links.
 The five projects use supplied imagery: Pivot House, Tidehall Fishmarket,
 Gradient Grid, City of the Sun and Luna House. Home features Tidehall Fishmarket and
-previews Pivot House and Gradient Grid. Preview images remain uncropped.
+previews Pivot House, Gradient Grid and Luna House. Preview images remain uncropped.
 Detail galleries lead with one representative image, then pair smaller images
 and let wide drawings span both columns. All images preserve their proportions.
 Portfolio pages check Supabase sessions before revealing content. The login form
@@ -115,7 +116,7 @@ imagery and site structure stay as they are.
 - Do not use a decorative form overlay that makes text difficult to read.
 
 ## Menu and buttons
-- Show Home, Projects, About, and Log out on every portfolio page.
+- Show Home, Project Archives, About, and Log out on every portfolio page.
 - Use a compact, clearly labelled menu on phones.
 - Indicate the current page and provide visible keyboard focus.
 - Primary buttons use Terracotta with Crème text.
