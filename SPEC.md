@@ -5,8 +5,9 @@ Scheme B is selected. All pages live at the top of the folder.
 The three architecture pages and graphics.html / model-making.html are provisional
 templates for the existing draft slots. Confirm count, filenames and content
 before publication. config.js holds only a Supabase project URL and browser-safe
-publishable key. Until supplied, login reports authentication is unavailable and
-gated pages stay hidden. Use HTTP for authentication; file:// cannot provide a
+publishable key. The configured project is https://igsjqplbzrenflrdzhuj.supabase.co.
+If configuration or the service is unavailable, gated pages stay hidden.
+Use HTTP for authentication; file:// cannot provide a
 valid confirmation redirect. There is no demo login or simulated session.
 The confirmed live address is https://mariam-alkhayyat-architecture.vercel.app/.
 Canonical and Open Graph page URLs use this address (the home page uses /).
@@ -103,6 +104,10 @@ Content:
 - Hide gated page content until the session check finishes.
 - If email confirmation is enabled, explain the confirmation step; do not treat sign up as a successful log-in before a session exists.
 - Configure Supabase’s site URL and allowed confirmation redirects for the deployed site.
+  Site URL: https://mariam-alkhayyat-architecture.vercel.app/.
+  Allowed confirmation redirect: https://mariam-alkhayyat-architecture.vercel.app/login.html.
+  These dashboard settings require project administration access; the browser
+  publishable key cannot change them.
 - Provide Log out on every portfolio page. Signing out clears the session and returns to login.html.
 - If login.html is viewed while signed in, provide a route to index.html and a Log out action.
 - All site navigation and asset links are relative. The Supabase CDN and authentication service are external dependencies.
@@ -145,7 +150,7 @@ For missing written content, use explicit [ADD: ...] placeholders during draftin
 ## Done when
 - [ ] Works on a phone.
 - [ ] The menu reaches every page.
-- [ ] Sign up, log in, and log out work.
-- [ ] Typing a page address ending in .html while signed out sends the visitor to login.html.
+- [x] Sign up, log in, and log out work (Mariam confirmed local browser testing on October 8, 2026).
+- [x] Typing a page address ending in .html while signed out sends the visitor to login.html (local browser test).
 - [ ] Every image has alt text.
 - [ ] The live link opens in a new tab or window.
