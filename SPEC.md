@@ -82,6 +82,10 @@ index.html sits at the top of the folder.
 Purpose: the complete Project Archives archive with Architecture Projects and Visual Studies.
 Content:
 - Architecture Projects uses structured image-led cards with names and links.
+  Every card has the same 3:2 image frame and caption structure. Images are
+  centered with object-fit: contain. Category, title and View link occupy matching
+  rows. Use two equal desktop columns with consistent gaps and one column on
+  smaller screens; retain all existing imagery, categories, fonts and colors.
 - Visual Studies uses a looser gallery with study names, supplied study types
   and links. Do not present these entries as full architecture projects.
 - Include Pivot House, Tidehall Fishmarket, Gradient Grid, City of the Sun and

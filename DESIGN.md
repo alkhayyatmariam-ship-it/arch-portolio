@@ -78,6 +78,12 @@ This refinement changes typography and palette only: page layout, spacing,
 imagery and site structure stay as they are.
 
 ## Layout and spacing
+- Architecture Projects cards use equal desktop columns, consistent 48px row and
+  32px column gaps, and matching 3:2 image frames. Center images with object-fit:
+  contain, preserving their proportions without cropping. Use matching caption
+  rows for category, title and View link, reserving two lines for titles. The
+  third card starts in the first column of the next row. Stack cards below 700px.
+  These rules apply only to Architecture Projects, leaving Visual Studies intact.
 - Home: broad featured image with caption, brief introduction, then two preview
   cards. Projects: a two-column desktop archive grid with consistent image ratios
   and category labels. Both stack in one column on phones.
