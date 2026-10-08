@@ -17,6 +17,8 @@ authentication code are implemented; real account behaviour remains unverified.
 Project counts, titles, images, descriptions, email and visual-work filenames
 need confirmation. No placeholder describes an actual supplied project.
 
-Before publishing, choose the entrance and share images and use absolute public
-URLs for sharing metadata. images/share.png is a temporary typographic image.
+Live address: https://mariam-alkhayyat-architecture.vercel.app/.
+Page sharing and canonical metadata use this public address. images/share.png
+is a temporary typographic image; choose the final entrance and project share
+images when available. Redeploy local changes to update the live previews.
 Static page and image files remain publicly retrievable despite the login gate.

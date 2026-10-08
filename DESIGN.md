@@ -12,7 +12,11 @@ Graphics and model making detail pages are provisional templates. Their titles,
 filenames and content need confirmation. Missing facts use [ADD: ...] labels.
 Portfolio pages check Supabase sessions before revealing content. The login form
 uses the same design. The temporary share image is a typographic PNG; replace it
-with Mariam's chosen image and absolute hosted metadata URLs before publishing.
+with Mariam's chosen project image when supplied.
+The live site is https://mariam-alkhayyat-architecture.vercel.app/.
+Every page uses its absolute public URL for canonical and Open Graph links and
+the absolute /images/share.png URL for Open Graph and Twitter previews. Include
+the image dimensions (1200 by 630), PNG type, and descriptive share-image alt text.
 
 ## Concept
 Mariam Alkhayyat’s architecture portfolio presents her projects through a structured working index. Warm neutrals, quiet typography, and generous space give architecture, graphics, and model making room to speak.

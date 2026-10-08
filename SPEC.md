@@ -8,8 +8,12 @@ before publication. config.js holds only a Supabase project URL and browser-safe
 publishable key. Until supplied, login reports authentication is unavailable and
 gated pages stay hidden. Use HTTP for authentication; file:// cannot provide a
 valid confirmation redirect. There is no demo login or simulated session.
-The temporary typographic PNG needs a final chosen image and absolute public
-sharing URLs once the deployment address is known.
+The confirmed live address is https://mariam-alkhayyat-architecture.vercel.app/.
+Canonical and Open Graph page URLs use this address (the home page uses /).
+Sharing image URLs are absolute and point to /images/share.png; include PNG type,
+1200 by 630 dimensions, and alt text for Open Graph and Twitter. Navigation and
+on-page assets stay relative. The typographic PNG remains until a final project
+share image is chosen.
 
 ## Purpose and audience
 A personal architecture portfolio for Mariam Alkhayyat, aimed at tutors, architecture studios, and potential employers.
