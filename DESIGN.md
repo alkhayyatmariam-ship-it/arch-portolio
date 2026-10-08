@@ -78,6 +78,10 @@ This refinement changes typography and palette only: page layout, spacing,
 imagery and site structure stay as they are.
 
 ## Layout and spacing
+- Detail pages place the supplied short description directly under the project
+  title, before imagery. Use regular Raleway at 15px with line height 1.8 and
+  a 720px maximum width. Descriptions remain secondary to titles and images;
+  archive cards remain image, category, title and link only.
 - Architecture Projects cards use equal desktop columns, consistent 48px row and
   32px column gaps, and matching 3:2 image frames. Center images with object-fit:
   contain, preserving their proportions without cropping. Use matching caption

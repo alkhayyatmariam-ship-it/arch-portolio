@@ -45,6 +45,7 @@ main.profile-page{display:grid;grid-template-columns:200px minmax(0,1fr);gap:48p
 .home-page img,.archive-page img,.project-story img,.login-layout>img{display:block;width:100%;height:auto;max-width:100%;object-fit:contain}
 .featured>img{margin-top:24px}
 .project-story figure{margin:32px 0}
+.project-story .project-description{max-width:720px;font-family:"Raleway",sans-serif;font-size:15px;font-weight:400;line-height:1.8;margin:16px 0 32px}
 .project-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:48px 32px;align-items:start}
 .project-gallery figure{margin:0;min-width:0}
 .project-gallery .wide{grid-column:1/-1}

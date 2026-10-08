@@ -16,6 +16,28 @@ Pivot House, Gradient Grid and Luna House to represent both categories.
 About content and architecture detail content/layout remain unchanged. Only
 their shared navigation label and back-link wording change to Project Archives.
 
+## Confirmed project descriptions
+Show these supplied descriptions only on individual detail pages, directly beneath
+the title and before imagery. Keep the existing category above the title. Use
+Raleway at 15px, regular weight, line height 1.8 and a maximum width of 720px;
+retain Cormorant Garamond titles. Work cards show image, category, title and link
+only. Preserve imagery, navigation, categories, colors and the Work layout.
+
+### Tidehall Fishmarket
+A fish market along the Miami River that combines working waterfront operations with public space. Docking, processing, market stalls, and a restaurant are organized around a continuous relationship between production, circulation, and the riverfront.
+
+### Pivot House
+Inspired by the geometry of a pinwheel, Pivot House uses rotating volumes to organize living spaces around a central courtyard. Cantilevers, terraces, and open transitions connect indoor and outdoor spaces while responding to the surrounding park landscape.
+
+### Gradient Grid
+An apartment project inspired by the landscape of the adjacent park. Cascading terraces pull greenery upward through the building, creating a gradual transition between street, residence, and landscape while providing light, views, and outdoor living spaces.
+
+### City of the Sun
+A hand-drawing study based on Tommaso Campanella’s *The City of the Sun* from 1602. The drawing explores a solar-centered, highly organized city where form, circulation, and hierarchy reflect ideas of order, knowledge, community, and the ideal city.
+
+### Luna House
+A precedent study exploring Luna House through physical modeling. Working with a partner, I studied its form, spatial organization, and details, then translated the design into a scaled wooden model to better understand the house through construction, material, and physical representation.
+
 ## First implementation
 Scheme B is selected. All pages live at the top of the folder.
 The portfolio now uses the five supplied project folders. Existing detail URLs
