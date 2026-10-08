@@ -3,8 +3,9 @@
 ## Selected direction — Scheme B: Working index
 Scheme B is selected for every page. All pages live at the top of the folder.
 The scheme comparison folders are removed. The attitude is direct and structured,
-like a carefully typeset project register. Use sand backgrounds, deep brown text
-and rules, grey image placeholders, Arial bold headings and Courier New labels.
+like a carefully typeset project register. Use predominantly Crème backgrounds,
+quiet dark text, subtle dividers, grey image placeholders, Cormorant Garamond
+headings and Raleway supporting text.
 Home keeps a narrow heading column beside three horizontal project rows. Other
 pages repeat these proportions and spacing. Use separate relative .html links.
 The three architecture slots are drafting placeholders, not a confirmed count.
@@ -29,19 +30,35 @@ Mariam Alkhayyat’s architecture portfolio presents her projects through a stru
 - Borrow systems, never identities. Do not copy names, logos, text, images, or fonts from either reference.
 
 ## Colour and material
-An original palette inspired by paper, plaster, sand, and wood:
-- Warm off-white #F5F2EC: form and share-image background.
-- Sand #E5DCCE: main page background and subtle hover backgrounds.
-- Muted brown #75604C: small accents and decorative details.
-- Deep brown #302B26: headings, body text, links, and primary buttons.
-- Soft grey #D8D8D8: missing-image boxes, with deep brown labels.
-- Off-white #F5F2EC: text on deep brown buttons.
+Use the exact surface and accent palette:
+- Crème #F5F2EE: dominant page background, including header and footer.
+- Sable #F1E0CB: occasional light secondary surfaces, such as the login form.
+- Argile #CFA999: sparse, decorative dividers; never a large background or small
+  text colour because it does not provide sufficient contrast on light surfaces.
+- Terracotta #9F5434: controlled accents on active navigation, links, project
+  numbers, buttons and keyboard focus. Never a large background.
+Retain dark neutral ink #302B26 for readable headings and body text and the
+existing grey #D8D8D8 for drafting image placeholders. These are functional text
+and placeholder neutrals, not additional decorative surface colours.
+No dark or brown page sections. Keep images in their original colours.
 
 Keep text strongly contrasted against its background. Evoke natural materials through colour and spacing, without decorative texture overlays.
 
 ## Typography
-Use Arial for body text and bold headings. Use Courier New for numbering, small labels and footer text. System fonts work without an external font dependency.
-- Site name: 20px, medium weight.
+Use exactly two named typefaces throughout the website: Cormorant Garamond and Raleway.
+Cormorant Garamond is the refined serif for major headings, project titles and important
+display text. Use regular weight (400), restrained tracking (-0.025em for main
+headings, -0.015em for section and project headings), and existing sizes and line
+heights. Avoid chunky bold or playful display lettering.
+Raleway is the clean sans serif for the site name, navigation, body text,
+Architecture Portfolio, project numbers and categories, captions, placeholder
+labels, form fields, buttons, work links and footer text. Keep secondary text at
+regular weight and its existing sizes. No monospace or third named font.
+Navigation uses Raleway at 14px, regular weight, line height 1.5 and 0.02em tracking.
+Underline the current page rather than bolding it. Preserve visible keyboard
+focus and existing 44px targets. Load both fonts at weight 400 through Google
+Fonts with display=swap; generic serif/sans-serif fallbacks keep text readable.
+- Site name: 20px, regular weight.
 - Main heading: 40px desktop, 32px phone.
 - Section heading: 28px desktop, 24px phone.
 - Project heading: 22px desktop, 20px phone.
@@ -49,7 +66,11 @@ Use Arial for body text and bold headings. Use Courier New for numbering, small 
 - Captions and navigation: 14px, line height 1.5.
 - Form fields and buttons: 16px minimum.
 
-Typography is contemporary and quiet. Avoid oversized statements, very thin weights, and long passages in capitals.
+Typography is refined, calm and consistent. The serif establishes hierarchy;
+the sans serif provides quiet, legible supporting information.
+Avoid oversized statements, very thin weights, and long passages in capitals.
+This refinement changes typography and palette only: page layout, spacing,
+imagery and site structure stay as they are.
 
 ## Layout and spacing
 - Use horizontal project rows with consistent image and text columns.
@@ -91,7 +112,7 @@ Typography is contemporary and quiet. Avoid oversized statements, very thin weig
 - Show Home, Projects, About, and Log out on every portfolio page.
 - Use a compact, clearly labelled menu on phones.
 - Indicate the current page and provide visible keyboard focus.
-- Primary buttons use deep brown with off-white text.
+- Primary buttons use Terracotta with Crème text.
 - Secondary actions use plain text links or outlined buttons.
 - Interactive targets are at least 44px high.
 - The log-in page offers Log in and Sign up; Log out appears there only if a signed-in session exists.
