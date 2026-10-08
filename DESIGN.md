@@ -10,9 +10,11 @@ Home uses one prominent featured image, a brief personal introduction and a smal
 curated preview. Projects uses equally weighted cards as the complete archive,
 grouped by Architecture and Visual work. Both keep the existing type and palette.
 Other pages retain their proportions and spacing. Use relative .html links.
-The three architecture slots are drafting placeholders, not a confirmed count.
-Graphics and model making detail pages are provisional templates. Their titles,
-filenames and content need confirmation. Missing facts use [ADD: ...] labels.
+The five projects use supplied imagery: Pivot House, Tidehall Fishmarket,
+Gradient Grid, City of the Sun and Luna House. Home features Tidehall Fishmarket and
+previews Pivot House and Gradient Grid. Preview images remain uncropped.
+Detail galleries lead with one representative image, then pair smaller images
+and let wide drawings span both columns. All images preserve their proportions.
 Portfolio pages check Supabase sessions before revealing content. The login form
 uses the same design. The temporary share image is a typographic PNG; replace it
 with Mariam's chosen project image when supplied.

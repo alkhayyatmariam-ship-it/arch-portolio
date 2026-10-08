@@ -2,9 +2,12 @@
 
 ## First implementation
 Scheme B is selected. All pages live at the top of the folder.
-The three architecture pages and graphics.html / model-making.html are provisional
-templates for the existing draft slots. Confirm count, filenames and content
-before publication. config.js holds only a Supabase project URL and browser-safe
+The portfolio now uses the five supplied project folders. Existing detail URLs
+are retained: project-01.html = Pivot House, project-02.html = Tidehall Fishmarket,
+project-03.html = Gradient Grid, graphics.html = City of the Sun,
+model-making.html = Luna House. Display names are readable forms of folder names;
+no dates, locations, descriptions or project facts are inferred.
+config.js holds only a Supabase project URL and browser-safe
 publishable key. The configured project is https://igsjqplbzrenflrdzhuj.supabase.co.
 If configuration or the service is unavailable, gated pages stay hidden.
 Use HTTP for authentication; file:// cannot provide a
@@ -25,11 +28,11 @@ Visitors should immediately encounter her projects and understand that the site 
 - Name: Mariam Alkhayyat.
 - Site title: Mariam Alkhayyat — Architecture Portfolio.
 - About statement: “I’m Mariam Alkhayyat, a third-year architecture student at the University of Miami.”
-- Approximately three completed architecture projects.
-- Additional visual projects include graphics and model making.
+- Supplied project names: Pivot House, Tidehall Fishmarket, Gradient Grid,
+  City of the Sun and Luna House.
 - Available content includes photographs or renders, architectural drawings, sketches, and model photographs.
 - Email: [ADD: Mariam’s email address].
-- Project titles, descriptions, exact project count, image files, and captions: ask Mariam before adding them.
+- Further project descriptions, facts and authored captions: ask Mariam before adding them.
 
 ## Pages
 
@@ -51,9 +54,8 @@ Content:
 - One prominent featured project with a large image, title, category and detail link.
 - A short introduction using the confirmed About statement.
 - A small selected-work preview rather than every archive entry.
-- For this draft, slot 1 is the temporary feature; slot 2 and Graphics form the
-  selected preview. Mariam will confirm the feature and final selection later.
-  Keep missing project titles, descriptions and images explicitly labelled.
+- Feature Tidehall Fishmarket with its exterior rendering. Preview Pivot House
+  and Gradient Grid using representative images from their own folders.
 - A clear link to the complete Projects archive and a link to About.
 - Links to Projects and the relevant project pages.
 - Home, Projects, About, and Log out navigation.
@@ -63,17 +65,17 @@ index.html sits at the top of the folder.
 ### projects.html
 Purpose: the complete project archive, without the Home introduction or feature.
 Content:
-- Architecture section containing approximately three completed projects.
-- Visual Work section containing graphics and model making.
-- Equally weighted image-led cards with titles, categories, descriptions and links.
-- Include every current draft entry: three architecture slots, Graphics and
-  Model making. Placeholder entries are not a confirmed final project count.
+- A single archive of equally weighted image-led cards with project names,
+  neutral Project labels and detail links. Descriptions wait for supplied text.
+- Include Pivot House, Tidehall Fishmarket, Gradient Grid, City of the Sun and
+  Luna House. Use project names and real representative images. Use the neutral
+  label Project until specific categories are confirmed; do not infer categories.
 - Links to individual project pages.
 - Shared navigation and Log out.
 
 ### Individual architecture project pages
 Purpose: explain each architecture project through its images and supplied text.
-Use relative filenames such as project-01.html, project-02.html, and project-03.html after confirming the exact number.
+Use the existing relative filenames mapped in First implementation above.
 Content:
 - Supplied project title and one-line description.
 - Main render or photograph.
@@ -86,7 +88,8 @@ Do not invent project names, locations, dates, dimensions, briefs, collaborators
 
 ### Individual visual project pages
 Purpose: show graphics and model making in more detail.
-Create pages only for work Mariam supplies, with filenames agreed during implementation.
+The existing graphics.html and model-making.html URLs now contain City of the Sun
+and Luna House respectively, with supplied imagery and project names.
 Content:
 - Supplied title and one-line description.
 - Graphics or model photographs.
@@ -154,6 +157,18 @@ For missing written content, use explicit [ADD: ...] placeholders during draftin
 - Open any link to the live site in a new tab or window.
 
 ## Images
+- Luna House detail image order: pink exploded axonometric diagram first,
+  courtyard-house model overview second, six-view model montage third.
+- Use originals from images/pivot-house, images/tidehall-fishmarket,
+  images/gradient-grid, images/city-of-the-sun and images/luna-house.
+- Detail pages include every image from the corresponding folder with alt text
+  describing observed visual content. Use a large lead image followed by a spaced
+  gallery, with wide drawings spanning the gallery. Preserve intrinsic aspect
+  ratios everywhere, including preview cards; never crop drawings.
+- No project descriptions, dates or locations are added in this imagery round.
+- Use the Pivot House axonometric image for the login entrance too. Keep the
+  existing share image until Mariam selects a final one. About and navigation
+  structure stay unchanged, as do the typography and palette.
 - Mariam’s image files go in images/.
 - Where no image exists, use a plain grey box labelled [ADD: image of ...].
 - Do not substitute invented projects or unrelated stock imagery.
