@@ -11,8 +11,8 @@ curated preview spanning both categories. Project Archives separates a structure
 Projects grid from a looser Visual Studies gallery with unequal column widths
 and entries aligned along the top. Both keep the existing type and palette.
 Other pages retain their proportions and spacing. Use relative .html links.
-The five projects use supplied imagery: Pivot House, Tidehall Fishmarket,
-Gradient Grid, City of the Sun and Luna House. Home features Tidehall Fishmarket and
+The six projects use supplied imagery: Pivot House, Tidehall Fishmarket,
+Gradient Grid, The Gathering Spine, City of the Sun and Luna House. Home features Tidehall Fishmarket and
 previews Pivot House, Gradient Grid and Luna House. Preview images remain uncropped.
 Detail galleries lead with one representative image, then pair smaller images
 and let wide drawings span both columns. All images preserve their proportions.

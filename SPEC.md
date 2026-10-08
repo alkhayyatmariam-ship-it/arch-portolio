@@ -4,7 +4,8 @@
 The main navigation reads Home, Project Archives, About and Log out. Project Archives keeps the existing
 projects.html URL so existing links continue to work. This categorization
 supersedes the former single project archive and generic Project labels.
-- Architecture Projects: Pivot House, Tidehall Fishmarket, Gradient Grid.
+- Architecture Projects: Pivot House, Tidehall Fishmarket, Gradient Grid,
+  The Gathering Spine.
 - Visual Studies: Luna House (graphic and physical model study), City of the Sun
   (drawing-based study). These are not full architecture projects.
 Project Archives has clearly separated sections: a structured architecture card grid and a
@@ -17,6 +18,16 @@ About content and architecture detail content/layout remain unchanged. Only
 their shared navigation label and back-link wording change to Project Archives.
 
 ## Confirmed project descriptions
+The Gathering Spine lives at the-gathering-spine.html and uses all eight images
+from images/the-gathering-spine. Use 07-render-hero.webp for its archive card and
+detail lead. Follow with the cover and site plan, process steps and interaction
+diagrams, plan/section and exploded axonometric, then the perspective. Preserve
+every image in full, including embedded labels. Reuse the architecture detail
+design and session gate; existing pages and navigation remain unchanged.
+
+### The Gathering Spine
+A parametric interactive installation designed in Grasshopper that responds to human presence. Individual segments shift from vertical to horizontal, transforming the piece from a sculptural wall into a continuous surface for sitting or lying down. The project explores movement, adaptability, and human interaction through computational design.
+
 Show these supplied descriptions only on individual detail pages, directly beneath
 the title and before imagery. Keep the existing category above the title. Use
 Raleway at 15px, regular weight, line height 1.8 and a maximum width of 720px;
@@ -40,7 +51,7 @@ A precedent study exploring Luna House through physical modeling. Working with a
 
 ## First implementation
 Scheme B is selected. All pages live at the top of the folder.
-The portfolio now uses the five supplied project folders. Existing detail URLs
+The portfolio now uses the six supplied project folders. Existing detail URLs
 are retained: project-01.html = Pivot House, project-02.html = Tidehall Fishmarket,
 project-03.html = Gradient Grid, graphics.html = City of the Sun,
 model-making.html = Luna House. Display names are readable forms of folder names;
@@ -67,7 +78,7 @@ Visitors should immediately encounter her projects and understand that the site 
 - Site title: Mariam Alkhayyat — Architecture Portfolio.
 - About statement: “I’m Mariam Alkhayyat, a third-year architecture student at the University of Miami.”
 - Supplied project names: Pivot House, Tidehall Fishmarket, Gradient Grid,
-  City of the Sun and Luna House.
+  The Gathering Spine, City of the Sun and Luna House.
 - Available content includes photographs or renders, architectural drawings, sketches, and model photographs.
 - Email: [ADD: Mariam’s email address].
 - Further project descriptions, facts and authored captions: ask Mariam before adding them.
@@ -205,7 +216,8 @@ For missing written content, use explicit [ADD: ...] placeholders during draftin
 - Luna House detail image order: pink exploded axonometric diagram first,
   courtyard-house model overview second, six-view model montage third.
 - Use originals from images/pivot-house, images/tidehall-fishmarket,
-  images/gradient-grid, images/city-of-the-sun and images/luna-house.
+  images/gradient-grid, images/city-of-the-sun, images/luna-house and
+  images/the-gathering-spine.
 - Detail pages include every image from the corresponding folder with alt text
   describing observed visual content. Use a large lead image followed by a spaced
   gallery, with wide drawings spanning the gallery. Preserve intrinsic aspect
