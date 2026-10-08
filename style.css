@@ -13,3 +13,18 @@ nav a[aria-current]{font-weight:400;text-decoration:underline;text-underline-off
 
 /* Controlled accents; the page remains predominantly Crème. */
 a{color:#9f5434}.identity{color:#302b26}nav a{color:#302b26}nav a[aria-current],nav a:hover,nav button:hover,.number{color:#9f5434}.actions button.secondary{color:#9f5434}.login-form{background:#f1e0cb}
+
+/* Home is curated; Projects is the complete archive. */
+main.home-page,main.archive-page{display:block}
+.home-page .featured .image{aspect-ratio:2.2/1;min-height:300px;margin-top:24px}
+.featured h1{margin-bottom:0}
+.feature-caption{display:flex;justify-content:space-between;align-items:center;gap:24px;padding-top:16px}
+.home-intro{display:grid;grid-template-columns:1fr 2fr;gap:48px;margin:64px 0;padding:32px 0;border-top:1px solid #cfa999;border-bottom:1px solid #cfa999}
+.section-heading{display:flex;justify-content:space-between;align-items:center;gap:24px;margin-bottom:24px}
+.preview-grid,.archive-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:48px 32px}
+.preview-grid article,.archive-grid article{min-width:0}
+.preview-grid .image,.archive-grid .image{aspect-ratio:1.7/1}
+.archive-heading{display:flex;justify-content:space-between;align-items:baseline;gap:32px;margin-bottom:48px}
+.archive-heading h1{margin-bottom:0}
+.archive-section{margin-top:64px}
+@media(max-width:700px){.home-page .featured .image{aspect-ratio:1.7/1;min-height:200px}.feature-caption,.section-heading,.archive-heading{display:block}.home-intro,.preview-grid,.archive-grid{grid-template-columns:1fr;gap:24px}.home-intro{margin:48px 0}.archive-heading{margin-bottom:32px}.archive-section{margin-top:48px}}

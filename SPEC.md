@@ -45,22 +45,29 @@ Content:
 This page is never gated.
 
 ### index.html
-Purpose: introduce the portfolio through the work.
+Purpose: a curated introduction to Mariam and her work, distinct from the archive.
 Content:
 - A compact site heading.
-- Selected images from approximately three architecture projects.
-- A smaller preview of graphics and model making.
+- One prominent featured project with a large image, title, category and detail link.
+- A short introduction using the confirmed About statement.
+- A small selected-work preview rather than every archive entry.
+- For this draft, slot 1 is the temporary feature; slot 2 and Graphics form the
+  selected preview. Mariam will confirm the feature and final selection later.
+  Keep missing project titles, descriptions and images explicitly labelled.
+- A clear link to the complete Projects archive and a link to About.
 - Links to Projects and the relevant project pages.
 - Home, Projects, About, and Log out navigation.
 
 index.html sits at the top of the folder.
 
 ### projects.html
-Purpose: browse all work.
+Purpose: the complete project archive, without the Home introduction or feature.
 Content:
 - Architecture section containing approximately three completed projects.
 - Visual Work section containing graphics and model making.
-- Image-led entries with supplied titles and short descriptions.
+- Equally weighted image-led cards with titles, categories, descriptions and links.
+- Include every current draft entry: three architecture slots, Graphics and
+  Model making. Placeholder entries are not a confirmed final project count.
 - Links to individual project pages.
 - Shared navigation and Log out.
 

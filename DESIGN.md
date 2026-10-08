@@ -6,8 +6,10 @@ The scheme comparison folders are removed. The attitude is direct and structured
 like a carefully typeset project register. Use predominantly Crème backgrounds,
 quiet dark text, subtle dividers, grey image placeholders, Cormorant Garamond
 headings and Raleway supporting text.
-Home keeps a narrow heading column beside three horizontal project rows. Other
-pages repeat these proportions and spacing. Use separate relative .html links.
+Home uses one prominent featured image, a brief personal introduction and a small
+curated preview. Projects uses equally weighted cards as the complete archive,
+grouped by Architecture and Visual work. Both keep the existing type and palette.
+Other pages retain their proportions and spacing. Use relative .html links.
 The three architecture slots are drafting placeholders, not a confirmed count.
 Graphics and model making detail pages are provisional templates. Their titles,
 filenames and content need confirmation. Missing facts use [ADD: ...] labels.
@@ -73,7 +75,9 @@ This refinement changes typography and palette only: page layout, spacing,
 imagery and site structure stay as they are.
 
 ## Layout and spacing
-- Use horizontal project rows with consistent image and text columns.
+- Home: broad featured image with caption, brief introduction, then two preview
+  cards. Projects: a two-column desktop archive grid with consistent image ratios
+  and category labels. Both stack in one column on phones.
 - Use a 200px heading column beside the content column on desktop and a single-column phone layout.
 - Maximum content width: 1280px.
 - Page margins: 48px desktop, 20px phone.
