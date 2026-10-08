@@ -6,6 +6,12 @@ projects.html URL so existing links continue to work. This categorization
 supersedes the former single project archive and generic Project labels.
 - Architecture Projects: Pivot House, Tidehall Fishmarket, Gradient Grid,
   The Gathering Spine.
+- Architecture card descriptor lines: Architecture Project / Residential for
+  Pivot House; Architecture Project / Civic for Tidehall Fishmarket; Architecture
+  Project / Multifamily Housing for Gradient Grid; Architecture Project /
+  Interactive Installation for The Gathering Spine. Use the existing number
+  label styling and placement above the title, matching Visual Studies. Keep
+  the grid and all other content unchanged; add no other projects or labels.
 - Visual Studies: Luna House (graphic and physical model study), City of the Sun
   (drawing-based study). These are not full architecture projects.
 Project Archives has clearly separated sections: a structured architecture card grid and a
