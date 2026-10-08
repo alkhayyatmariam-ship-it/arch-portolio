@@ -95,11 +95,25 @@ Content:
 - Shared navigation and Log out.
 
 ### about.html
-Purpose: introduce Mariam and provide her contact information.
+Purpose: a concise, professional editorial profile, not a résumé or long biography.
 Content:
-- The confirmed About statement above.
-- Email once Mariam provides it.
-- Further biography, interests, education details, or portrait only if supplied.
+- Introduction: “I’m Mariam Alkhayyat, an architecture student at the University
+  of Miami. My work explores residential design, spatial experience, and how
+  architecture can support everyday life. I’m especially interested in the
+  relationship between design, representation, and fabrication.”
+- Software: AutoCAD, Rhino, Grasshopper, Illustrator, Photoshop, D5 Render,
+  Lumion, SketchUp.
+- Skills: Parametric Design, 3D Modeling, Physical Model Making, Laser Cutting,
+  3D Printing, Architectural Drawing, Digital Rendering.
+- Languages: Arabic, Fluent; English, Fluent.
+- Education: University of Miami, School of Architecture.
+- Awards: President’s Honor Roll; Honor Roll.
+- No phone number, personal location, invented dates, degree names or other facts.
+- Present the introduction above compact supporting sections with generous space,
+  clear hierarchy and a calm editorial layout. Avoid timelines and résumé tables.
+- Preserve Cormorant Garamond headings, Raleway supporting text and the existing
+  Crème/Sable/Argile/Terracotta palette. Other pages remain unchanged in this round,
+  including the previously confirmed short introduction on Home.
 - Shared navigation and Log out.
 
 ## Log-in gate
