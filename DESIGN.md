@@ -122,7 +122,9 @@ imagery and site structure stay as they are.
 - Display “Mariam Alkhayyat” and “Architecture Portfolio.”
 - Use the same warm palette and quiet typography as the portfolio.
 - Provide clearly labelled email and password fields, Log in and Sign up actions, and readable status messages.
-- Let Mariam choose the entrance image; until then use [ADD: image of a selected architecture project].
+- The entrance visual is the Tranquil Tiers perspective drawing, supplied as
+  images/tranquil-tiers/perspective-login.webp. Display upright as provided,
+  without CSS rotation or cropping, preserving its proportions beside the form.
 - Do not use a decorative form overlay that makes text difficult to read.
 
 ## Menu and buttons

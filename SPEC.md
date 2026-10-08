@@ -229,7 +229,8 @@ For missing written content, use explicit [ADD: ...] placeholders during draftin
   gallery, with wide drawings spanning the gallery. Preserve intrinsic aspect
   ratios everywhere, including preview cards; never crop drawings.
 - No project descriptions, dates or locations are added in this imagery round.
-- Use the Pivot House axonometric image for the login entrance too. Keep the
+- Use images/tranquil-tiers/perspective-login.webp, the Tranquil Tiers perspective
+  drawing, for the login entrance, upright and uncropped. Keep the
   existing share image until Mariam selects a final one. About and navigation
   structure stay unchanged, as do the typography and palette.
 - Mariam’s image files go in images/.
